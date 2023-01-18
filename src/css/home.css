@@ -1,0 +1,121 @@
+.container__home{
+    width: 100vw;
+    height: 100vh;
+    background: rgba(242, 243, 248);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 2px -1px 24px -6px rgb(57, 61, 61);
+    -webkit-box-shadow: 2px -1px 24px -6px rgba(39,63,63,1);
+    -moz-box-shadow: 2px -1px 24px -6px rgba(39,63,63,1);
+}
+
+.img__home{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    object-fit: cover;
+}
+
+.modal__sigen{
+  margin-top: 70px;
+}
+
+.modal__sigen select:focus, input:focus{
+  box-shadow:  0 0 8px #13BFA6 !important;
+}
+
+.container__modal{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ocultar{
+  display:none;
+}
+.visible{
+  width: 100%;
+  background: rgba(90, 89, 89, 0.67);
+  height: 150%;
+  position: absolute;
+  z-index: 99999;
+}
+
+/* bg__primaryP start */
+.bg__navigation{
+    background: #6D53FB;
+    color:#FFF !important;
+    height: 90px;
+}
+.bg__navigation .dropdown-toggle{
+    background: #6D53FB;
+    color:#FFF !important;
+}
+
+.dropdown button:active{
+    border:3px#13BFA6 !important;
+}
+
+.bg__navigation .show{
+    box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075)inset, 0 0 2px #13BFA6 !important;
+}
+.bg__navigation .nav-link{
+    color:#FFF !important;
+}
+.dropdown-menu:active{
+    background: #FFF !important;
+}
+.dropdown-menu a{
+    background: #FFF !important;
+    color: #000 !important;
+}
+.bg__navigation .active{
+    text-decoration: underline 3px#13BFA6 !important;
+}
+
+.row__certificade{
+  border: 1px solid #000;
+}
+
+/* bg__primaryP end */
+
+
+/* Movil */
+
+@media screen and (max-width: 600px){
+  .bg__navigation{
+    height: 60px;
+  }
+  .bg__navigation .nav-link{
+    color: #000 !important;
+  }
+  .navbar-collapse{
+    margin-top: 15px !important;
+    background-color: #fff;
+    padding: 30px 20px;
+  }
+  .nav-item button{
+    background-color: #fff ;
+    margin-left: 0px !important;
+  }
+  .navbar-toggler{
+    background: #FFF !important;
+    color: #000;
+  }
+
+  .icon__sm{
+    display: none;
+  }
+
+  .menu__home button{
+    width: 100% !important;
+    display: block !important;
+  }
+
+}

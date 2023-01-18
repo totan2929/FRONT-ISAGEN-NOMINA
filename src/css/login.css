@@ -1,0 +1,113 @@
+.container__form{
+    width: 100vw;
+    height: 100vh;
+    background-color:  #6D53FB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.container__login{
+    background-color: #FFF;
+    padding: 10px;
+    width: 300px;
+    height: 340px;
+    position: relative;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.container__login input[type="text"]:focus, input[type="password"]:focus{
+    border-bottom:#13BFA6 solid 1px;
+    box-shadow: 0 0px 1px rgba(229, 103, 23, 0.075)inset, 0 0 2px #13BFA6;
+}
+
+.container__login img{
+    width: 170px;
+    height: 170px;
+    top: -110px;
+    left: 21%;
+    object-fit: cover;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border:#6D53FB solid 5px;
+    position: absolute;
+    z-index: 9999;
+}
+
+.container__login input[type="text"], input[type="password"]{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: #6D53FB solid 1px;
+}
+
+.input__user{
+    margin-top: 80px;
+}
+
+.container__ingresar{
+    margin-top: 25px;
+}
+.container__ingresar input{
+    background: #6D53FB;
+}
+
+.container__ingresar input:focus{
+    box-shadow: 0 0px 1px rgba(229, 103, 23, 0.075)inset, 0 0 5px #6D53FB;
+}
+
+.container__ingresar input:hover{
+    background: #13BFA6;
+    border: 1px solid #13BFA6;
+}
+
+.container__ingresar input:active{
+    background: #6D53FB !important;
+}
+
+
+@media screen and (max-width: 600px){
+
+    .container__login{
+      padding-top: 100px;
+      background: #13BFA6;
+      width: 100vw;
+      height: 100vh;
+      border-radius: 0px;
+      -webkit-border-radius: 0px;
+      -moz-border-radius: 0px;
+      -ms-border-radius: 0px;
+      -o-border-radius: 0px;
+}
+
+    .container__login img{
+        width: 200px;
+        height: 200px;
+        top: 30px;
+        left: 22%;
+        object-fit: cover;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        border:#6D53FB solid 5px;
+        position: absolute;
+        z-index: 9999;
+    }
+
+    .container__login input[type="text"]:focus, input[type="password"]:focus{
+        box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075)inset, 0 0 6px #6D53FB;
+    }
+
+    .input__user{
+        margin-top: 150px;
+    }
+}
